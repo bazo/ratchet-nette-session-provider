@@ -16,6 +16,6 @@
 		"bazo/nette-symfonystorageadapter": "*"
     },
 	"autoload": {
-        "psr-0": { "Bazo": "" }
+        "psr-0": { "Bazo\\Ratchet": "" }
     }
 }

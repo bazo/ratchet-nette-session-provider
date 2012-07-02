@@ -5,7 +5,7 @@ Nette session provider for Ratchet websocket server
 
 usage:
 
-$session = new Ratchet\Session\NetteSessionProvider(new App, $container->session);
+$session = new \Bazo\Ratchet\NetteSessionProvider(new App, $container->session);
 
 $wsServer = new WsServer($session);
 

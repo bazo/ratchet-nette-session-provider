@@ -1,0 +1,21 @@
+{
+    "name": "bazo/nette-ratchet-sessionprovider",
+	"type": "library",
+    "description": "Nette session provider for Ratchet websocket server",
+    "keywords": ["nette","session","provider","ratchet"],
+    "homepage": "https://github.com/bazo/ratchet-nette-session-provider",
+    "authors": [
+        {
+            "name": "Martin Bažík",
+            "email": "martin@bazo.sk",
+            "homepage": "http://bazo.sk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+		"bazo/nette-symfonystorageadapter": "*"
+    },
+	"autoload": {
+        "psr-0": { "Bazo": "" }
+    }
+}
